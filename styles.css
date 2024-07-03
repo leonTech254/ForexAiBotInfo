@@ -26,3 +26,33 @@ body {
 .answer.active {
     display: block; /* Show answer when active */
 }
+
+
+
+.contact-support {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0C1844;
+}
+
+.contact-support h2 {
+    margin-top: 0;
+}
+
+.contact-support a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-support a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #fff;
+}
