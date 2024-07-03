@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #0C1844;
+    color: #ccc;
 }
 
 .faq-item {
@@ -11,6 +13,7 @@ body {
 
 .question {
     background-color: #f0f0f0;
+    background-color: #0C1844;
     padding: 10px;
     cursor: pointer;
 }
