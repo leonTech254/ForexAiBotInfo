@@ -1,8 +1,55 @@
-.container,.card{
-    background-color: #0C1844;
-    color: #fff;
-}
-.material-icons {
-    vertical-align: middle;
-    margin-right: 8px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQs - Forex AI Bot</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="header_qest">
+    FAQ
+    <hr>
+</div>
+<div class="faq-container">
+    <div class="faq-item">
+        <div class="question">How do I start using Forex AI Bot?</div>
+        <div class="answer">To start using Forex AI Bot, you need to sign up for an account on our platform, configure your trading preferences, and connect your brokerage account.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="question">Is Forex AI Bot suitable for beginners?</div>
+        <div class="answer">Yes, Forex AI Bot is designed to be user-friendly and suitable for traders at all experience levels. Our platform provides educational resources and support to help beginners get started.</div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="question">What markets does Forex AI Bot support?</div>
+        <div class="answer">Forex AI Bot primarily supports the forex market. However, depending on the version and configuration, it may also support other financial markets like commodities or indices.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">Is there a free version?</div>
+        <div class="answer">Yes, Forex AI Bot offers a free version with limited features. Users can upgrade to premium plans to access advanced features and higher usage limits.</div>
+    </div>
+  
+    
+    
+    <!-- Add more FAQ items as needed -->
+</div>
+
+<script>
+    // JavaScript to toggle visibility of answers
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.question');
+        const answer = item.querySelector('.answer');
+
+        question.addEventListener('click', () => {
+            answer.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>

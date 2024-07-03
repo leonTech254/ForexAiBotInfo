@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    padding: 10px;
+    display: none; /* Initially hide answers */
+}
+
+.answer.active {
+    display: block; /* Show answer when active */
+}
